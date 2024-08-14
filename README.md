@@ -22,11 +22,14 @@ Relationships: Visual exploration helped identify linear and non-linear relation
 Initial Architecture: A simple ANN with one hidden layer was designed and trained, which provided a moderate performance baseline.
 
 Activation Functions: ReLU activation was chosen for hidden layers to introduce non-linearity and improve model learning.
-Training and Evaluation:
+ 
+### Training and Evaluation:
 
-Model Performance: Initial performance metrics indicated a reasonable fit, but there was scope for improvement.
+Training Loss and Validation Loss: These plots indicate how well the model is learning. If the validation loss starts increasing while the training loss decreases, it may indicate overfitting.
 
-Metrics: Mean Squared Error (MSE) and R² Score were used to evaluate model accuracy and explanatory power.
+Training MAE and Validation MAE: These plots show the model's performance in terms of Mean Absolute Error, which is another way to monitor the model's accuracy during training.
+
+By following these steps, the ANN model will be trained, and we can evaluate its performance on unseen data. Depending on the results, you might consider fine-tuning the model's architecture, adjusting hyperparameters, or implementing techniques like regularization to improve performance.
 
 ### Improving the Model:
 
